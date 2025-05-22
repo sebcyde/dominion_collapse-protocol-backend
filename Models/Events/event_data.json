@@ -1,0 +1,28 @@
+[
+  {
+    "id": "mass_protest",
+    "description": "Mass protest erupts in the capital.",
+    "options": [
+      {
+        "label": "Deploy security forces",
+        "cost": 200,
+        "effects": [
+          {
+            "target": "unrest",
+            "amount": -5
+          }
+        ]
+      },
+      {
+        "label": "Offer concessions",
+        "cost": 100,
+        "effects": [
+          {
+            "target": "opinion",
+            "amount": 10
+          }
+        ]
+      }
+    ]
+  }
+]
